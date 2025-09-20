@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   keywords: "déménagement Marseille, transport meubles, livraison LeBonCoin, camion 9m3, déménageur pas cher",
   authors: [{ name: "VLT Services" }],
   creator: "VLT Services",
-  metadataBase: new URL('https://username.github.io/site-VLT_services'),
+  metadataBase: new URL('https://VictorL1.github.io'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://username.github.io/site-VLT_services',
+    url: 'https://VictorL1.github.io',
     siteName: 'VLT Services',
     title: 'VLT Services - Transport & Déménagement Marseille',
     description: 'Transport de meubles et déménagement à Marseille. Service professionnel, tarifs accessibles.',
@@ -55,7 +55,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'VLT Services',
   description: 'Transport de meubles et déménagement à Marseille',
-  url: 'https://username.github.io/site-VLT_services',
+  url: 'https://VictorL1.github.io',
   telephone: '+33619640661',
   email: 'victor.ltalamon@gmail.com',
   address: {

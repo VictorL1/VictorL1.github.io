@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/site-VLT_services' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/site-VLT_services/' : '',
 };
 
 export default nextConfig;
