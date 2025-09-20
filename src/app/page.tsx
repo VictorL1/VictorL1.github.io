@@ -53,7 +53,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Transport de Meubles</h3>
+              <h3 className="text-xl text-blue-600 font-semibold mb-2">Transport de Meubles</h3>
               <p className="text-gray-600">Déplacement sécurisé de vos meubles et électroménager</p>
             </div>
 
@@ -63,7 +63,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Livraisons LeBonCoin</h3>
+              <h3 className="text-xl text-blue-600 font-semibold mb-2">Livraisons LeBonCoin</h3>
               <p className="text-gray-600">Récupération et livraison de vos achats en ligne</p>
             </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2v0" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Petits Déménagements</h3>
+              <h3 className="text-xl text-blue-600 font-semibold mb-2">Petits Déménagements</h3>
               <p className="text-gray-600">Déménagement studio, F1, F2 clé en main</p>
             </div>
 
@@ -83,7 +83,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Transport Express</h3>
+              <h3 className="text-xl text-blue-600 font-semibold mb-2">Transport Express</h3>
               <p className="text-gray-600">Livraison rapide et urgente dans la journée</p>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Avantages Section */}
-      <section className="py-20">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -106,7 +106,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Tarifs Accessibles</h3>
+              <h3 className="text-xl text-black font-semibold mb-2">Tarifs Accessibles</h3>
               <p className="text-gray-600">Des prix transparents et compétitifs pour tous les budgets</p>
             </div>
 
@@ -116,7 +116,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Transport Sécurisé</h3>
+              <h3 className="text-xl text-black font-semibold mb-2">Transport Sécurisé</h3>
               <p className="text-gray-600">Vos biens sont protégés et assurés durant le transport</p>
             </div>
 
@@ -126,7 +126,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Disponibilité</h3>
+              <h3 className="text-xl text-black font-semibold mb-2">Disponibilité</h3>
               <p className="text-gray-600">Service 7j/7 avec réactivité et flexibilité</p>
             </div>
           </div>
