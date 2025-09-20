@@ -26,7 +26,7 @@ export default function Tarifs() {
       </section>
 
       {/* Tarification principale */}
-      <section className="py-16 bg-white">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Tarif de base */}
           <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-12 text-center">

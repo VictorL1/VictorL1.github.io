@@ -7,15 +7,22 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
+    <header className="shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-600">
-              VLT Services
+            <Link href="/" className="flex items-center">
+              <img 
+                src="/logo_VLT_services.png" 
+                alt="VLT Services" 
+                className="h-24 w-auto mr-4"
+              />
+              <div className="flex flex-col">
+                <span className="text-4xl font-bold text-blue-600">VLT Services</span>
+                <span className="text-xl text-gray-600">Déménagement & Transport</span>
+              </div>
             </Link>
-            <span className="ml-2 text-sm text-gray-600">Déménagement & Transport</span>
           </div>
 
           {/* Navigation Desktop */}

@@ -1,14 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f1f3f4; /* Gris un peu plus foncé */
   --foreground: #171717;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: #f1f3f4 !important; /* Gris un peu plus foncé */
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Force le background pour toutes les sections qui n'ont pas de background spécifique */
+main {
+  background: #f1f3f4 !important;
+}
+
+header {
+  background: #f1f3f4 !important;
+}
+
+/* Classe personnalisée pour le blanc cassé */
+.bg-warm-white {
+  background-color: #fafaf9;
+}
+
+.bg-card-white {
+  background-color: #ffffff; /* Garde le blanc pur pour les cartes pour plus de contraste */
 }
 
 @media (prefers-color-scheme: dark) {
